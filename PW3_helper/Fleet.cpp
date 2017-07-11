@@ -2,14 +2,18 @@
 
 
 
-Fleet::Fleet()
+Fleet::Fleet() : FleetBase()
 {
-	this->Name = "";
-	this->Text = "";
 }
 
-Fleet::Fleet(String ^ name)
+Fleet::Fleet(String ^ name) : FleetBase(name)
 {
-	this->Name = name;
-	this->Text = name;
+}
+
+Fleet::Fleet(String ^ name, String ^ location) : FleetBase(name, location)
+{
+}
+
+Fleet::Fleet(String ^ name, String ^ location, String^ notes) : FleetBase(name, location, notes)
+{
 }

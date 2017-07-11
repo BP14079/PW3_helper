@@ -77,9 +77,6 @@ namespace PW3_helper {
 		}
 #pragma endregion
 	private: System::Void MyForm_Load(System::Object^  sender, System::EventArgs^  e) {
-		Fleet^ fleet = gcnew Fleet("‘æˆêŠÍ‘à");
-		this->treeView1->Nodes->Add(fleet);
-		this->treeView1->Nodes->Add("‘æ“ñŠÍ‘à");
 	}
 	};
 }

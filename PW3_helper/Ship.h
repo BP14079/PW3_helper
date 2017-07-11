@@ -1,8 +1,15 @@
 #pragma once
-ref class Ship :
-	public System::Windows::Forms::TreeNode
+#include "FleetBase.h"
+
+using namespace System;
+
+ref class Ship : 
+	public FleetBase
 {
 public:
 	Ship();
+	Ship(String^ name);
+	Ship(String ^ name, String ^ location);
+	Ship(String ^ name, String ^ location, String ^ notes);
 };
 

@@ -136,11 +136,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Fleet.cpp" />
+    <ClCompile Include="FleetBase.cpp" />
     <ClCompile Include="MyForm.cpp" />
     <ClCompile Include="Ship.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Fleet.h" />
+    <ClInclude Include="FleetBase.h" />
     <ClInclude Include="MyForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
